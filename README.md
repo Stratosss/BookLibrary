@@ -16,13 +16,12 @@ The user can edit their review whenever they like, and they can also delete any 
 ### Directions:
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
-<br>
 ![1](https://github.com/Stratosss/BookLibrary/assets/157527268/13341dbc-5113-44b5-8915-737b5e94a735)
-<br>
+
 ![2](https://github.com/Stratosss/BookLibrary/assets/157527268/d459e57a-f650-4ef2-abb6-41694117c09f)
-<br>
+
 ![3](https://github.com/Stratosss/BookLibrary/assets/157527268/02a013b8-46ee-4f33-9ea1-0f7c687a971a)
-<br>
+
 ![4](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
-<br>
+
 ![5](https://github.com/Stratosss/BookLibrary/assets/157527268/a1e345ac-a2e5-4a39-a767-259318b7f805)
