@@ -5,6 +5,7 @@ The "library shelf" consists of an image of each book cover, along with their ti
 The user can edit their review whenever they like, and they can also delete any entry they want to.
 The website counts the number of books the user has read so far. 
 There's an additional button to jump to the top of the page.
+This project utilises an API (https://openlibrary.org/developers/api) from which it requests data by using axios.
 ### Prerequisites
 - Go to the directory where that folder lives in and install the necessary packages by typing the following commands in terminal:
   - npm init -y
