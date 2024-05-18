@@ -1,4 +1,4 @@
-# BookLibrary
+# Book Library
 ## Overview
 This project concerns a personal library website. The user can search for and store the books they have read from the latest book, they have read, to the oldest. The books are saved in a postgreSQL database.
 The "library shelf" consists of an image of each book cover, along with their title, author's name, year of publication and a review they write upon book submission.
