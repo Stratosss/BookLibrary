@@ -16,7 +16,7 @@ There's an additional button to jump to the top of the page.
 - In the package.json type: "type": "module"
 - To run it in localhost, install node.js from: https://nodejs.org/en/download
 - Create a library named "Bookshelf" and create a table named "book" with the following columns: id (serial primary key), "book_name", "author", "publish_year", "review", "image"
-### Directions:
+### Directions
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
 ![1](https://github.com/Stratosss/BookLibrary/assets/157527268/13341dbc-5113-44b5-8915-737b5e94a735)
