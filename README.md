@@ -28,6 +28,8 @@ This project utilises an API (https://openlibrary.org/developers/api) from which
 
 ![2](https://github.com/Stratosss/BookLibrary/assets/157527268/f0c323fd-90ca-493e-99bf-1e738e74c176)
 
-![3](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
+![3](https://github.com/Stratosss/BookLibrary/assets/157527268/1c598a79-f6da-4636-b927-c9175b0ce264)
 
-![4](https://github.com/Stratosss/BookLibrary/assets/157527268/f4d7809a-c791-42c0-95d1-ed8a83ba1680)
+![4](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
+
+![5](https://github.com/Stratosss/BookLibrary/assets/157527268/f4d7809a-c791-42c0-95d1-ed8a83ba1680)
