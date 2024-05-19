@@ -21,7 +21,8 @@ This project utilises an API (https://openlibrary.org/developers/api) from which
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
 ### Updates
-- 19/5/2024: "Sorted by" button added.
+- 18/5/2024: "Sorted by" button added.
+- 19/5/2024: Star rating system added. 
 
 ![1](https://github.com/Stratosss/BookLibrary/assets/157527268/40506d92-8a39-41f4-b3e3-80e3ee549ef0)
 
