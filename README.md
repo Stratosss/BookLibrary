@@ -20,12 +20,12 @@ This project utilises an API (https://openlibrary.org/developers/api) from which
 ### Directions 
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
-![1](https://github.com/Stratosss/BookLibrary/assets/157527268/13341dbc-5113-44b5-8915-737b5e94a735)
+![1](https://github.com/Stratosss/BookLibrary/assets/157527268/6d3c8612-d2d4-4551-809e-03703a98da62)
 
-![2](https://github.com/Stratosss/BookLibrary/assets/157527268/d459e57a-f650-4ef2-abb6-41694117c09f)
+![2](https://github.com/Stratosss/BookLibrary/assets/157527268/e0f4d52d-88fa-4706-90dc-7b402bbb5103)
 
-![3](https://github.com/Stratosss/BookLibrary/assets/157527268/02a013b8-46ee-4f33-9ea1-0f7c687a971a)
+![3](https://github.com/Stratosss/BookLibrary/assets/157527268/1ba7ed55-b56f-46ab-82bc-a0771b9ede28)
 
 ![4](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
 
-![5](https://github.com/Stratosss/BookLibrary/assets/157527268/a1e345ac-a2e5-4a39-a767-259318b7f805)
+![5](https://github.com/Stratosss/BookLibrary/assets/157527268/5285674e-2d49-4f06-be1a-a0767f63489c)
