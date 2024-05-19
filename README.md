@@ -24,9 +24,9 @@ This project utilises an API (https://openlibrary.org/developers/api) from which
 - 18/5/2024: "Sorted by" button added.
 - 19/5/2024: Star rating system added. 
 
-![1](https://github.com/Stratosss/BookLibrary/assets/157527268/40506d92-8a39-41f4-b3e3-80e3ee549ef0)
+![1](https://github.com/Stratosss/BookLibrary/assets/157527268/c44310ab-7221-44f7-960e-25179bb71706)
 
-![2](https://github.com/Stratosss/BookLibrary/assets/157527268/eaa03d34-ed99-42b3-b905-8b4967111614)
+![2](https://github.com/Stratosss/BookLibrary/assets/157527268/f0c323fd-90ca-493e-99bf-1e738e74c176)
 
 ![3](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
 
