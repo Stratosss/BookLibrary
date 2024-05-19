@@ -23,7 +23,7 @@ This project utilises an API (https://openlibrary.org/developers/api) from which
 ### Updates
 - 19/5/2024: "Sorted by" button added.
 
-![1](https://github.com/Stratosss/BookLibrary/assets/157527268/6d3c8612-d2d4-4551-809e-03703a98da62)
+![1](https://github.com/Stratosss/BookLibrary/assets/157527268/40506d92-8a39-41f4-b3e3-80e3ee549ef0)
 
 ![2](https://github.com/Stratosss/BookLibrary/assets/157527268/e0f4d52d-88fa-4706-90dc-7b402bbb5103)
 
