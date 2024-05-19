@@ -1,0 +1,331 @@
+html,body {
+    height:100%;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/library.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.header {
+    border-bottom:1px solid rgb(173, 64, 64);
+}
+.counter{
+    text-align: left;
+    font-size: 10pt;
+    font-family: "EB Garamond", serif;
+    color:aliceblue;
+    margin-bottom:10px;
+}
+h1{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;    
+    color: aliceblue;
+}
+h2,h3,p{
+    font-family: "Work Sans", sans-serif;
+    color: aliceblue;
+    padding:0;
+    margin:0;
+}
+#test h2{
+    display:inline-block;
+}
+p{
+    position: relative;
+    font-size: 10pt;
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+.glow {
+    font-size: 40px;
+    color: #fdeeee;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fda6a6, 0 0 40px #fda6a6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+    }
+}
+  #headerTitle{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+form{
+    width:50%;
+    display:inline-block;
+    margin-top: 2%;
+}
+.button-89 {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #ffffff;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.button-89:hover,
+.button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+input{
+    width:70%;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+#search button{
+    position:absolute;
+    display:inline-block;
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: rgba(249, 219, 182, 0);
+    color: rgb(255, 255, 255);
+}
+#submitButton{
+    background-color: bisque;
+    border: 1px solid brown;
+    border-radius: 3%;
+    padding:1%
+}
+#bookInfo{
+    font-family: "Work Sans", sans-serif;
+    color:blanchedalmond;
+}
+.rate i, .rate i:hover ~ i {
+    color: #c5c5c5;
+    text-shadow: none;
+    transition: color 200ms,
+                text-shadow 200ms;
+    /* This will remove the delay when
+       moving the cursor left or right
+       within the set of stars. */
+    transition-delay: 0;
+  }
+  /* This is the style that will be
+     applied to all stars and then
+     subsequently removed from the stars
+     to the right of the one being
+     hovered. */
+.rate:hover i {
+    color: #fc0;
+    text-shadow: #fc0 0 0 20px;
+}
+  /* Make the effect apply one star at a
+     time. Limiting the selector to when
+     .rate is hovered removes the effect
+     without delay when cursor leaves
+     the .rate area. */
+.rate:hover i:nth-child(2) {
+    transition-delay: 30ms;
+}
+.rate:hover i:nth-child(3) {
+    transition-delay: 60ms;
+}
+.rate:hover i:nth-child(4) {
+    transition-delay: 90ms;
+}
+.rate:hover i:nth-child(5) {
+    transition-delay: 120ms;
+}
+  /* Miscellaneous styles. */
+.rate i {
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16pt;
+  } 
+  #index-rating i{
+    font-style: normal;
+    font-size: 16pt;
+  }
+  .rate span{
+    font-size: 16pt;
+    color:bisque
+  }
+  .oneStar {
+    color: #fc0 !important;
+  }
+#bookshelf{
+    background-color: rgb(68, 17, 17);
+    padding: 1%;
+    margin:1%;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#content{
+    position:relative;
+    display:grid;
+    grid-template-columns: 220px auto;
+    grid-template-rows: 100px 1fr;
+    margin: 1%;
+    padding:1%;
+    border-bottom: 1px solid aliceblue;
+}
+#content:last-child{
+    border-bottom: 0;
+}
+#image img{
+    width:100%;
+    border: 1px solid aliceblue;
+}
+#image{
+    grid-row: span 2;
+    padding:5%
+}
+#review{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+#addReview{
+    overflow:none;
+    resize:none;
+    width:100%;
+    height:170px;
+    padding-bottom: 2%;
+}
+#content textarea{
+    overflow:none;
+    resize:none;
+    width:150%;
+    height:150px;
+    padding-bottom: 2%;
+    background-color: transparent;
+    color:white;
+}
+.edit_buttons{
+    position:absolute;
+    bottom:20px;
+    bottom:20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40%;
+    color:white;
+    padding: 4px;
+}
+.delete_button{
+    position: absolute;
+    left: 280px;
+    bottom:20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40%;
+    color:white;
+    padding: 4px;
+}
+footer { 
+    position: relative;
+    bottom: 0; 
+    left: 10px; 
+    width: 400px;
+    margin:0;
+}
+.btnScrollToTop {
+    position: fixed;
+    right: 35px;
+    bottom: 20px;
+    width: auto;
+    border: none;
+    z-index: 99;
+    display: none;
+    color:rgb(249, 219, 182);
+}
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    right:90px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:auto;
+    border: none;
+    margin:0;
+    padding:0;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+}
+  .dropdown-content{
+    position:relative;
+    display:none;
+    margin:0;
+    background-color:rgb(68, 17, 17);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:100%;
+    border: 1px solid aliceblue;
+    border-radius:5%;
+    z-index: 1;
+}
+  .sort{
+    margin:0;
+    padding:0;
+    width:100%;
+    display:block;
+}
+  .sortBy{
+    border:none;
+    background-color:transparent;
+    width:100%;
+    color:aliceblue;
+    font-family: "Work Sans", sans-serif;
+}
+  .sort:first-child{
+    border-bottom: 1px solid aliceblue;
+}
+  .dropdown:hover .dropdown-content{
+    display:block;
+}
+   .sort:hover{
+    background-color: aliceblue;
+}
+  .sort:hover .sortBy{
+    color: black;
+}
+/* @media (max-width:735px){
+    
