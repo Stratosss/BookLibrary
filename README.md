@@ -29,7 +29,7 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 
 ![2](https://github.com/Stratosss/BookLibrary/assets/157527268/f0c323fd-90ca-493e-99bf-1e738e74c176)
 
-![3](https://github.com/Stratosss/BookLibrary/assets/157527268/1c598a79-f6da-4636-b927-c9175b0ce264)
+![3](https://github.com/Stratosss/BookLibrary/assets/157527268/6c457940-3902-46da-8a42-dacdf91ca26a)
 
 ![4](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
 
