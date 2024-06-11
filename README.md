@@ -26,9 +26,14 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - 10/6/2024: The user can now edit the star rating system from home screen, same as the text review. Additionally, if the book has no cover, "Νo cover available" text is displayed.
 - 15/6/2024: The user can now search for a specific title in the list of read books.
 
+![1](https://github.com/Stratosss/BookLibrary/assets/157527268/e62c4e07-13f9-4670-9130-5b2268c9a39d)
 
-![3](https://github.com/Stratosss/BookLibrary/assets/157527268/6c457940-3902-46da-8a42-dacdf91ca26a)
+![2](https://github.com/Stratosss/BookLibrary/assets/157527268/ce6b114a-3f6e-40c9-9b18-10454daf6a36)
 
-![4](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
+![3](https://github.com/Stratosss/BookLibrary/assets/157527268/6a5ee0e7-57b3-44a1-ae0d-f500091a0091)
 
-![5](https://github.com/Stratosss/BookLibrary/assets/157527268/f4d7809a-c791-42c0-95d1-ed8a83ba1680)
+![4](https://github.com/Stratosss/BookLibrary/assets/157527268/6c457940-3902-46da-8a42-dacdf91ca26a)
+
+![5](https://github.com/Stratosss/BookLibrary/assets/157527268/13f83a67-b619-470b-be18-ab2d115e36f4)
+
+![6](https://github.com/Stratosss/BookLibrary/assets/157527268/f4d7809a-c791-42c0-95d1-ed8a83ba1680)
