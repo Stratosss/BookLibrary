@@ -24,6 +24,7 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - 18/5/2024: "Sorted by" button added.
 - 19/5/2024: Star rating system added.
 - 10/6/2024: The user can now edit the star rating system from home screen, same as the text review. Additionally, if the book has no cover, "Νo cover available" text is displayed.
+- 15/6/2024: The user can now search for a specific title in the list of read books.
 
 ![1](https://github.com/Stratosss/BookLibrary/assets/157527268/c44310ab-7221-44f7-960e-25179bb71706)
 
