@@ -27,7 +27,11 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - 15/6/2024: The user can now search for a specific title in the list of read books.
 - 29/1/2025: The possibility to add many users for a more personalised solution was developed. Also, each user can no longer add duplicates.
 
-![1](https://github.com/Stratosss/BookLibrary/assets/157527268/e62c4e07-13f9-4670-9130-5b2268c9a39d)
+![Image](https://github.com/user-attachments/assets/d2974018-e778-46bf-ada6-8c5da97416c4)
+
+![Image](https://github.com/user-attachments/assets/a8d31b58-a7cd-4461-be63-8f037691195f)
+
+![Image](https://github.com/user-attachments/assets/77a8bf93-4b86-463f-a2d2-96aff6d4de10)
 
 ![2](https://github.com/Stratosss/BookLibrary/assets/157527268/8fca396c-8b2d-4521-a69b-446f18d7cdf1)
 
