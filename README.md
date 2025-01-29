@@ -25,7 +25,7 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - 19/5/2024: Star rating system added.
 - 10/6/2024: The user can now edit the star rating system from home screen, same as the text review. Additionally, if the book has no cover, "Νo cover available" text is displayed.
 - 15/6/2024: The user can now search for a specific title in the list of read books.
-- 29/1/2025: The possibility to add many users for a more personalised solution was developed. Also, each user can no longer add duplicates.
+- 29/1/2025: The possibility to add multiple users for a more personalised solution is now available. Also, each user can no longer add duplicates.
 
 ![Image](https://github.com/user-attachments/assets/d2974018-e778-46bf-ada6-8c5da97416c4)
 
