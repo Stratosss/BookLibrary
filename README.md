@@ -24,8 +24,8 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - 18/5/2024: "Sorted by" button added.
 - 19/5/2024: Star rating system added.
 - 10/6/2024: The user can now edit the star rating system from home screen, same as the text review. Additionally, if the book has no cover, "Νo cover available" text is displayed.
-- 15/6/2024: The user can now search for a specific title in the list of read books.
-- 29/1/2025: The possibility to add multiple users for a more personalised solution is now available. Also, each user can no longer add duplicates, thanks to an SQL constraint command. Than enables us to use only one table for books, accomodating all users and minimising resourse utilisation; instead of creating a book table for each user.
+- 15/6/2024: The user can now search for a specific title, author or published year in the list of read books.
+- 29/1/2025: The possibility to add multiple users for a more personalised solution is now available. Passport.js framework is used for register/ log in /log out securely, and passwords are saved in the database encrypted. Also, each user can no longer add duplicates, thanks to an SQL constraint command. Than enables us to use only one table for books, accomodating all users and minimising resourse utilisation; instead of creating a book table for each user.
 
 ![Image](https://github.com/user-attachments/assets/d2974018-e778-46bf-ada6-8c5da97416c4)
 
