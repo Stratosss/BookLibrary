@@ -54,24 +54,6 @@ res.render("register.ejs");
 let userID = "";
 let user_name="";
 
-// app.post("/login", async (req, res) => {
-//   const email = req.body.user_email;
-//   const password = req.body.password;
-//   try{
-//     const result= await db.query("SELECT password, id, name FROM users WHERE email= $1",[email]);
-//     const originalPassword= result.rows[0].password;
-//     userID = result.rows[0].id;
-//     user_name = result.rows[0].name;
-//     if (password === originalPassword) {
-//       res.redirect("/library")
-//     } else {
-//       res.render("login.ejs")
-//     }
-//   } catch (err){
-//     console.log(err);
-//   };
-//   });
-
 app.post("/login", passport.authenticate("local", { //local strategy -when u log in via username and password
   successRedirect: "/library",
   failureRedirect: "/"
