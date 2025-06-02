@@ -21,7 +21,7 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
 ### Updates
-- 18/5/2024: "Sorted by" and "move to top" buttons added.
+- 18/5/2024: "Sorted by" button added.
 - 19/5/2024: Star rating system added.
 - 10/6/2024: The user can now edit the star rating system from home screen, same as the text review. Additionally, if the book has no cover, "Νo cover available" text is displayed.
 - 15/6/2024: The user can now search for a specific title, author or published year in the list of read books.
