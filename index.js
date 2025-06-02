@@ -9,15 +9,16 @@ import {Strategy} from "passport-local";
 import env from "dotenv";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 const saltRounds = 10;
 env.config();
 
 const db = new pg.Client({
-  connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false,
-  },
+  user: process.env.PG_USER,
+  host: process.env.PG_HOST,
+  database: process.env.PG_DATABASE,
+  password: process.env.PG_PASSWORD,
+  port: process.env.PG_PORT
 });
 db.connect();
 
@@ -52,6 +53,7 @@ res.render("register.ejs");
   
 let userID = "";
 let user_name="";
+
 
 app.post("/login", passport.authenticate("local", { //local strategy -when u log in via username and password
   successRedirect: "/library",
