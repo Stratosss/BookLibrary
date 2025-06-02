@@ -16,7 +16,8 @@ This application utilises the embedded JavaScript, an API (https://openlibrary.o
   - npm i pg
 - In the package.json type: "type": "module"
 - To run it in localhost, install node.js from: https://nodejs.org/en/download
-- Create a database named "Bookshelf" and create a table named "book" with the following columns: id (serial primary key), "book_name", "author", "publish_year", "review", "image"
+- Create a database named "Bookshelf" and create a table named "book" with the following columns: id (serial primary key), "book_name", "author", "publish_year", "review", "image" & add the constraint: CONSTRAINT unique_book_per_user UNIQUE (book_name, user_id)
+- Create a table named "names"  with the following columns: id (serial primary key), "email|, "password", "name"
 ### Directions 
 - After installing the prerequisites, initialize the application by typing either "node index.js" or "nodemon index.js".
 - Open a browser and go to "localhost:3000"
