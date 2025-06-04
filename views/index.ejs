@@ -103,11 +103,11 @@
                             <input type="hidden" name="updatedItemId" id="updItemId" value="<%= item.id %>">
                             <span class="rate" id="rate<%= item.id %>" hidden>
                                 <input type="hidden" name="rating" id="NewRatingValue<%= item.id %>" value="">
-                                <i onclick="gfg(1, '<%= item.id %>')"  class="star<%= item.id %> oneStar" >★</i>
-                                <i onclick="gfg(2, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
-                                <i onclick="gfg(3, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
-                                <i onclick="gfg(4, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
-                                <i onclick="gfg(5, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
+                                <i onclick="newStars(1, '<%= item.id %>')"  class="star<%= item.id %> oneStar" >★</i>
+                                <i onclick="newStars(2, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
+                                <i onclick="newStars(3, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
+                                <i onclick="newStars(4, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
+                                <i onclick="newStars(5, '<%= item.id %>')"  class="star<%= item.id %>" >★</i>
                             </span>
                             <textarea id="input<%= item.id %>" name="updatedItemReview" rows="4" cols="50" maxlength="2000" autocomplete="off" onclick="show('<%=item.id%>')" onkeyup="count('<%=item.id%>')" hidden><%= item.review %></textarea>  
                             <div class="counter" id="count<%= item.id %>" hidden>
@@ -176,7 +176,7 @@
         btnScrollToTop.style.display = window.scrollY > 20 ? 'block' : 'none';
         });
 
-        function gfg(n, id) {
+        function newStars(n, id) {
             let stars = document.querySelectorAll(".star"+id);
             remove(stars);
             for (let i = 1; i < n; i++) {
